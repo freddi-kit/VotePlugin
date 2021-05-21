@@ -1,0 +1,12 @@
+name: Vote
+version: ${project.version}
+main: dev.freddi.vote.Vote
+api-version: 1.16
+
+commands:
+  vs:
+    description: 投票開始
+  v:
+    description: 指定したユーザーにvote
+  vsend:
+    description: 投票終了・結果の開示
